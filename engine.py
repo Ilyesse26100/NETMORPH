@@ -57,7 +57,7 @@ try:
 except ImportError:
     pass  # python-dotenv optionnel
 
-GEMINI_API_KEY = _os.environ.get("AIzaSyDRK-1b7cMEPrmfwFD8u33VA1mcWjti6fc", "")
+GEMINI_API_KEY = _os.environ.get("GEMINI_API_KEY", "")
 
 if GEMINI_API_KEY:
     genai.configure(api_key=GEMINI_API_KEY)
