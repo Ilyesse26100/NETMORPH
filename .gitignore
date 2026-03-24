@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+venv/
+uploads/
+_debug_output.html
+_debug_script.js
+
